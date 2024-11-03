@@ -30,8 +30,8 @@ public void settings() {
 }
 
 public void setup(){
-  fluidTwo = new FluidSqr(1, 0.0005f, 0.000005f);
-  //fluid = new FluidSqr(2, 0.01f, 0.0000005f);
+  //fluidTwo = new FluidSqr(1, 0.0005f, 0.000005f);
+  fluid = new FluidSqr(2, 0.01f, 0.0000005f);
 }
 
 //void keyPressed(){
